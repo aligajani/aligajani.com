@@ -1,0 +1,112 @@
+/* 
+
+Custom.css
+
+Copyrights 2013 (c)
+Ali Gajani 
+All Rights Reserved
+
+*/
+
+/* Overrides */
+
+body {
+	padding-top:80px;
+	background-color:#fff;
+	background-image:url('../img/curves.png');
+}
+
+h1 {
+	text-align:center;
+	font-size:100px;
+	letter-spacing: 1px;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+
+h2 {
+	text-align:center;
+}
+
+span {
+	color:#f93f3b;
+}
+
+footer {
+	text-align: center;
+	margin-bottom:50px;
+}
+
+/* Classes */
+
+
+.sub {
+	margin-top:-4px;
+}
+
+.text {
+	text-align:justify;
+	font-size:22px;
+	line-height: 1.6em;
+	font-family: 'PT Sans', sans-serif;
+	margin:5% 10%  0 10%;
+	display:block;
+}
+
+.lead {
+	text-align:center;
+	line-height: 4em;
+	font-size:30px;
+}
+
+.signature {
+	text-align:left;
+	font-size:30px;
+	line-height: 1.6em;
+	font-family: 'PT Sans', sans-serif;
+	margin:5% 10%  0 10%;
+	display:block;
+}
+
+.social {
+	text-align:center;
+	margin-bottom:50px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 568px) {
+	
+	h1 {
+	font-size:60px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	
+	h2 {
+		font-size:22px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.lead {
+		font-size:20px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	
+	.lead {
+		font-size:0.8em;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	
+	.text, .signature {
+		font-size:16px;
+	}
+}
