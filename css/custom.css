@@ -56,8 +56,9 @@ footer {
 
 .lead {
 	text-align:center;
-	line-height: 4em;
+	line-height: 3.3em;
 	font-size:30px;
+	color:#e74c3c;
 }
 
 .signature {
@@ -110,7 +111,7 @@ footer {
 @media screen and (max-width: 568px) {
 	
 	.lead {
-		font-size:1.0em;
+		font-size:16px;
 	}
 }
 
